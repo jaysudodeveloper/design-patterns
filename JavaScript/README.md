@@ -3,3 +3,7 @@ JavaScript Modules are the most commonly used patterns for keeping particular pi
 loose coupling to support structured code. In OOP JavaScript modules are "classes".
 
 Modules should be IIFE to keep name spaces clean and allow for a "private scope".
+
+#Prototype
+The Prototypical design pattern relies on JavaScripts prototypical inheritance. Each object has a link to another object
+called its Prototype.

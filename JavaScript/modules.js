@@ -33,7 +33,7 @@ let ColorChanger1 = (function() {
 /**Revealing Module ColorChanger*/
 let ColorChanger2 = (function(){
     //Declare private variables and functions
-    let _colors = [];
+    let _colors = ["red", "blue", "green"];
     let _color = "";
 
     let _changeColor = function(col_index){
