@@ -13,7 +13,7 @@ ColorChanger1.prototype.getColors = function(){
     console.log(this.colors);
 };
 
-ColorChanger.prototype.changeColor = function(col_index){
+ColorChanger1.prototype.changeColor = function(col_index){
     this.color = this.colors[col_index];
     console.log("New color is: " + this.color);
 };
@@ -22,7 +22,7 @@ ColorChanger.prototype.changeColor = function(col_index){
 let color1 = new ColorChanger1();
 let color2 = new ColorChanger1();
 
-//We can change state of each instance separately using the methods we define for the prototype.
+//We can change state of each instance separately using the methods we defined for the ColorChanger1 prototype.
 color1.changeColor(2);
 color2.changeColor(1);
 
