@@ -10,3 +10,6 @@ called its Prototype.
 
 Similar to modules, we can simulate private and public scopes using Object.prototype = function(){}();, where the return
 value is an object literal containing the functions or variables you wish to expose as public.
+
+#Observer
+Should be self explanatory.
