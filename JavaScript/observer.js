@@ -10,7 +10,7 @@ let Subject = function() {
     return {
         subscribeObserver: function (observer) {
             self.observers.push(observer); //Notice we use self.observer to access the observer list
-        },
+        },                                 //We could use bind(this) on each of the functions as well
 
         unsubscribeObserver: function(observer){
             let index = self.observers.indexOf(observer);
@@ -65,3 +65,4 @@ subject.notifyAllObservers();
 
 //Easily remove a single observer
 subject.unsubscribeObserver(observer3);
+

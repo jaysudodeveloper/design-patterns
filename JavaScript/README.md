@@ -13,3 +13,7 @@ value is an object literal containing the functions or variables you wish to exp
 
 #Observer
 Should be self explanatory.
+
+#Singleton
+Restricts the instantiation of an object to one instance. An example would be the instantiation of a Printer to be used
+by multiple people in an office.
